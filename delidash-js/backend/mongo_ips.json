@@ -1,0 +1,28 @@
+{
+  "hosts": [
+    "mtm-aws-aps1-6-m0-22-shard-00-00.kj3z6.mongodb.net.:27017",
+    "mtm-aws-aps1-6-m0-22-shard-00-01.kj3z6.mongodb.net.:27017",
+    "mtm-aws-aps1-6-m0-22-shard-00-02.kj3z6.mongodb.net.:27017"
+  ],
+  "targets": [
+    {
+      "priority": "0",
+      "weight": "0",
+      "port": "27017",
+      "target": "ac-3eigcaq-shard-00-00.i3b3yq5.mongodb.net"
+    },
+    {
+      "priority": "0",
+      "weight": "0",
+      "port": "27017",
+      "target": "ac-3eigcaq-shard-00-01.i3b3yq5.mongodb.net"
+    },
+    {
+      "priority": "0",
+      "weight": "0",
+      "port": "27017",
+      "target": "ac-3eigcaq-shard-00-02.i3b3yq5.mongodb.net"
+    }
+  ],
+  "suggestedConnectionString": "mongodb://mtm-aws-aps1-6-m0-22-shard-00-00.kj3z6.mongodb.net.:27017,mtm-aws-aps1-6-m0-22-shard-00-01.kj3z6.mongodb.net.:27017,mtm-aws-aps1-6-m0-22-shard-00-02.kj3z6.mongodb.net.:27017/?ssl=true&directConnection=true"
+}
